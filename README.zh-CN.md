@@ -45,7 +45,7 @@
 
 ### 部署在 Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fddiu8081%2Fchatgpt-demo&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&envDescription=OpenAI API Key&envLink=https://platform.openai.com/account/api-keys)
 
 
 
@@ -53,13 +53,13 @@
 >
 > 携带[`SITE_PASSWORD`](#environment-variables)进行部署
 >
-> <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fddiu8081%2Fchatgpt-demo&env=OPENAI_API_KEY&env=SITE_PASSWORD&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys" alt="Deploy with Vercel" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel" height=24 style="vertical-align: middle; margin-right: 4px;"></a>
+> <a href="https://vercel.com/new/clone?repository-url=https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&env=SITE_PASSWORD&envDescription=OpenAI API Key&envLink=https://platform.openai.com/account/api-keys" alt="Deploy with Vercel" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel" height=24 style="vertical-align: middle; margin-right: 4px;"></a>
 
 ![image](https://cdn.staticaly.com/gh/yzh990918/static@master/20230310/image.4wzfb79qt7k0.webp)
 
 ### 部署在 Netlify
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ddiu8081/chatgpt-demo#OPENAI_API_KEY=&HTTPS_PROXY=&OPENAI_API_BASE_URL=&HEAD_SCRIPTS=&PUBLIC_SECRET_KEY=&OPENAI_API_MODEL=&SITE_PASSWORD=)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/javastarboy/chatgpt-vercel#OPENAI_API_KEY=&HTTPS_PROXY=&OPENAI_API_BASE_URL=&HEAD_SCRIPTS=&PUBLIC_SECRET_KEY=&OPENAI_API_MODEL=&SITE_PASSWORD=)
 
 **分步部署教程：**
 
@@ -133,32 +133,21 @@ docker-compose down
 | `SITE_PASSWORD` | 为网站设置密码，支持使用英文逗号创建多个密码。如果未设置，则该网站将是公开的 | `null` |
 | `OPENAI_API_MODEL` | 使用的 OpenAI 模型. [模型列表](https://platform.openai.com/docs/api-reference/models/list) | `gpt-3.5-turbo` |
 
-## 常见问题
 
-Q: TypeError: fetch failed (can't connect to OpenAI Api)
+# 交流社群
+如果你觉得我的分享对比有帮助，也欢迎加入我们交流社群，每天都有很多关于 ChatGPT、人工智能 AI、Python、变现创业的相关分享。
+![](pictures/专面向于技术人员优惠券-GitHub.png)
 
-A: 配置环境变量 `HTTPS_PROXY`，参考: https://github.com/ddiu8081/chatgpt-demo/issues/34
+# 赞助
+***
+如果你觉得这个项目对你有帮助，并且情况允许的话，可以给我一点点支持，总之非常感谢支持～
 
-Q: throw new TypeError(${context} is not a ReadableStream.)
+## 微信
+<div style="text-align:center">
+    <img src="pictures/微信收款码.png">
+</div>
 
-A: Node 版本需要在 `v18` 或者更高，参考: https://github.com/ddiu8081/chatgpt-demo/issues/65
-
-Q: Accelerate domestic access without the need for proxy deployment tutorial?
-
-A: 你可以参考此教程: https://github.com/ddiu8081/chatgpt-demo/discussions/270
-
-Q: `PWA` 不工作？
-
-A: 当前的 PWA 不支持 Netlify 部署，您可以选择 vercel 或 node 部署。
-
-## 参与贡献
-
-这个项目的存在要感谢所有做出贡献的人。
-
-感谢我们所有的支持者！🙏
-
-[![img](https://contributors.nn.ci/api?repo=ddiu8081/chatgpt-demo)](https://github.com/ddiu8081/chatgpt-demo/graphs/contributors)
-
-## License
-
-MIT © [ddiu8081](https://github.com/ddiu8081/chatgpt-demo/blob/main/LICENSE)
+## 支付宝
+<div style="text-align:center">
+    <img src="pictures/支付宝收款码.png">
+</div>
