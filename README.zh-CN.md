@@ -45,9 +45,7 @@
 
 ### 部署在 Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&envDescription=OpenAI API Key&envLink=https://platform.openai.com/account/api-keys)
-
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key&envLink=https://platform.openai.com/account/api-keys)
 
 > ###### 🔒 需要站点密码？
 >
@@ -136,7 +134,9 @@ docker-compose down
 
 # 交流社群
 如果你觉得我的分享对比有帮助，也欢迎加入我们交流社群，每天都有很多关于 ChatGPT、人工智能 AI、Python、变现创业的相关分享。
-![](pictures/专面向于技术人员优惠券-GitHub.png)
+<div style="text-align:center">
+    <img src="https://github.com/javastarboy/WeChatGPT_JSB/blob/master/pictures/%E4%B8%93%E9%9D%A2%E5%90%91%E4%BA%8E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%E4%BC%98%E6%83%A0%E5%88%B8-GitHub.png">
+</div>
 
 # 赞助
 ***
@@ -144,10 +144,10 @@ docker-compose down
 
 ## 微信
 <div style="text-align:center">
-    <img src="pictures/微信收款码.png">
+    <img src="https://github.com/javastarboy/WeChatGPT_JSB/blob/master/pictures/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.png">
 </div>
 
 ## 支付宝
 <div style="text-align:center">
-    <img src="pictures/支付宝收款码.png">
+    <img src="https://github.com/javastarboy/WeChatGPT_JSB/blob/master/pictures/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.png">
 </div>
