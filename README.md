@@ -10,14 +10,6 @@ A demo repo based on [OpenAI GPT-3.5 Turbo API.](https://platform.openai.com/doc
 
 ![chat-logo](https://cdn.staticaly.com/gh/yzh990918/static@master/chat-logo.webp)
 
-## Introducing `Anse`
-
-Looking for multi-chat, image-generation, and more powerful features? Take a look at our newly launched [Anse](https://github.com/anse-app/anse).
-
-More info on https://github.com/ddiu8081/chatgpt-demo/discussions/247.
-
-[![image](https://user-images.githubusercontent.com/1998168/235048408-ca4015f5-4d3c-4c64-9a6c-9069a89cd23a.png)](https://github.com/anse-app/anse)
-
 ## Running Locally
 
 ### Pre environment
@@ -50,26 +42,24 @@ More info on https://github.com/ddiu8081/chatgpt-demo/discussions/247.
 
 ### Deploy With Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fddiu8081%2Fchatgpt-demo&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys)
-
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&envDescription=OpenAI API Key&envLink=https://platform.openai.com/account/api-keys)
 
 > #### 🔒 Need website password?
 >
 > Deploy with the [`SITE_PASSWORD`](#environment-variables)
 >
-> <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fddiu8081%2Fchatgpt-demo&env=OPENAI_API_KEY&env=SITE_PASSWORD&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys" alt="Deploy with Vercel" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel" height=24 style="vertical-align: middle; margin-right: 4px;"></a>
+> <a href="https://vercel.com/new/clone?repository-url=https://vercel.com/new/clone?repository-url=https://github.com/javastarboy/chatgpt-vercel&env=OPENAI_API_KEY&env=SITE_PASSWORD&envDescription=OpenAI API Key&envLink=https://platform.openai.com/account/api-keys" alt="Deploy with Vercel" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel" height=24 style="vertical-align: middle; margin-right: 4px;"></a>
 
 ![image](https://cdn.staticaly.com/gh/yzh990918/static@master/20230310/image.4wzfb79qt7k0.webp)
 
 
 ### Deploy With Netlify
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ddiu8081/chatgpt-demo#OPENAI_API_KEY=&HTTPS_PROXY=&OPENAI_API_BASE_URL=&HEAD_SCRIPTS=&PUBLIC_SECRET_KEY=&OPENAI_API_MODEL=&SITE_PASSWORD=)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/javastarboy/chatgpt-vercel#OPENAI_API_KEY=&HTTPS_PROXY=&OPENAI_API_BASE_URL=&HEAD_SCRIPTS=&PUBLIC_SECRET_KEY=&OPENAI_API_MODEL=&SITE_PASSWORD=)
 
 **Step-by-step deployment tutorial:**
 
-1. [Fork](https://github.com/ddiu8081/chatgpt-demo/fork) this project，Go to [https://app.netlify.com/start](https://app.netlify.com/start) new Site, select the project you `forked` done, and connect it with your `GitHub` account.
+1. [Fork](https://github.com/javastarboy/chatgpt-vercel/fork) this project，Go to [https://app.netlify.com/start](https://app.netlify.com/start) new Site, select the project you `forked` done, and connect it with your `GitHub` account.
 
 ![image](https://cdn.staticaly.com/gh/yzh990918/static@master/20230310/image.3nlt4hgzb16o.webp)
 
@@ -143,31 +133,20 @@ You can control the website through environment variables.
 | `OPENAI_API_MODEL` | ID of the model to use. [List models](https://platform.openai.com/docs/api-reference/models/list) | `gpt-3.5-turbo` |
 
 
-## Frequently Asked Questions
+# 交流社群
+如果你觉得我的分享对比有帮助，也欢迎加入我们交流社群，每天都有很多关于 ChatGPT、人工智能 AI、Python、变现创业的相关分享。
+![](pictures/专面向于技术人员优惠券-GitHub.png)
 
-Q: TypeError: fetch failed (can't connect to OpenAI Api)
+# 赞助
+***
+如果你觉得这个项目对你有帮助，并且情况允许的话，可以给我一点点支持，总之非常感谢支持～
 
-A: Configure environment variables `HTTPS_PROXY`，reference: https://github.com/ddiu8081/chatgpt-demo/issues/34
+## 微信
+<div style="text-align:center">
+    <img src="pictures/微信收款码.png">
+</div>
 
-Q: throw new TypeError(${context} is not a ReadableStream.)
-
-A: The Node version needs to be `v18` or later，reference: https://github.com/ddiu8081/chatgpt-demo/issues/65
-
-Q: Accelerate domestic access without the need for proxy deployment tutorial?
-
-A: You can refer to this tutorial: https://github.com/ddiu8081/chatgpt-demo/discussions/270
-
-Q: `PWA` is not working?
-
-A: Current `PWA` does not support deployment on Netlify, you can choose vercel or node deployment.
-## Contributing
-
-This project exists thanks to all those who contributed.
-
-Thank you to all our supporters!🙏
-
-[![img](https://contributors.nn.ci/api?repo=ddiu8081/chatgpt-demo)](https://github.com/ddiu8081/chatgpt-demo/graphs/contributors)
-
-## License
-
-MIT © [ddiu8081](https://github.com/ddiu8081/chatgpt-demo/blob/main/LICENSE)
+## 支付宝
+<div style="text-align:center">
+    <img src="pictures/支付宝收款码.png">
+</div>
