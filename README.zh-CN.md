@@ -4,7 +4,7 @@
 
 一个基于 [OpenAI GPT-3.5 Turbo API](https://platform.openai.com/docs/guides/chat) 的 demo。
 
-**🍿 在线预览**: https://chatgpt.ddiu.me
+**🍿 在线预览**: https://www.javastarboy.cn
 
 **🏖️ V2 版本(Beta)**: https://v2.chatgpt.ddiu.me
 
