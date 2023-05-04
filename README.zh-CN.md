@@ -6,7 +6,7 @@
 
 **🍿 在线预览**: https://www.javastarboy.cn
 
-**🏖️ V2 版本(Beta)**: https://v2.chatgpt.ddiu.me
+# **🏖️ V2 版本(Beta)**: https://v2.chatgpt.ddiu.me
 
 > ⚠️ 注意: 我们的API密钥限制已用尽。所以演示站点现在不可用。
 
