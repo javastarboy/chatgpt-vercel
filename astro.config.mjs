@@ -52,7 +52,7 @@ export default defineConfig({
               type: 'image/png',
             },
             {
-              src: 'icon.svg',
+              src: 'javastarboy-绿色.png',
               sizes: '32x32',
               type: 'image/svg',
               purpose: 'any maskable',
