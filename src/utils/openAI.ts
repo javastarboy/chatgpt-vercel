@@ -2,7 +2,7 @@ import { createParser } from 'eventsource-parser'
 import type { ParsedEvent, ReconnectInterval } from 'eventsource-parser'
 import type { ChatMessage } from '@/types'
 
-const model = import.meta.env.OPENAI_API_MODEL || 'gpt-3.5-turbo'
+const model = import.meta.env.OPENAI_API_MODEL || 'gpt-3.5-turbo-0613'
 
 export const generatePayload = (apiKey: string, messages: ChatMessage[]): RequestInit & { dispatcher?: any } => ({
   headers: {
@@ -42,7 +42,7 @@ export const parseOpenAIStream = (rawResponse: Response) => {
             //   id: 'chatcmpl-6pULPSegWhFgi0XQ1DtgA3zTa1WR6',
             //   object: 'chat.completion.chunk',
             //   created: 1677729391,
-            //   model: 'gpt-3.5-turbo-0301',
+            //   model: 'gpt-3.5-turbo-0613-0301',
             //   choices: [
             //     { delta: { content: '你' }, index: 0, finish_reason: null }
             //   ],
